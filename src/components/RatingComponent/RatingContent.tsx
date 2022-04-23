@@ -16,7 +16,7 @@ const RatingContent = ({ buttonsText, setRating, setSubmited }: Props) => {
       </div>
       {/* text */}
       <div className="space-y-3">
-        <h2 className="text-white font-semibold text-3xl">How did we do?</h2>
+        <h1 className="text-white font-semibold text-3xl">How did we do?</h1>
         <p className="text-[#7c8798]">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
