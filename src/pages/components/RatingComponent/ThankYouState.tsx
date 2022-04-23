@@ -5,7 +5,7 @@ type Props = {
   rating: string;
 };
 
-const ThankYouState = ({ rating }: Props) => {
+export const ThankYouState = ({ rating }: Props) => {
   return (
     <div className=" m-7 flex flex-col justify-center items-center space-y-7 ">
       <div>

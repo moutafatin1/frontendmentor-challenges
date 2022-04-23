@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import RatingContent from "./RatingContent";
-import ThankYouState from "./ThankYouState";
+import { RatingContent, ThankYouState } from "../components/RatingComponent";
 
 const buttonsText = ["1", "2", "3", "4", "5"];
 
