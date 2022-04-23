@@ -11,13 +11,13 @@ const RatingContent = ({ buttonsText, setRating, setSubmited }: Props) => {
   return (
     <div className="m-7 flex flex-col space-y-7 ">
       {/* Start icon */}
-      <div className="h-10 w-10 rounded-full bg-[#2b343f] flex justify-center items-center">
+      <div className="h-10 w-10 rounded-full bg-[#262f38] flex justify-center items-center">
         <Image src="/icon-star.svg" alt="start icon" height={18} width={18} />
       </div>
       {/* text */}
       <div className="space-y-3">
         <h1 className="text-white font-semibold text-3xl">How did we do?</h1>
-        <p className="text-[#7c8798]">
+        <p className="text-[#808791]">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
