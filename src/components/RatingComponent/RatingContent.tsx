@@ -11,8 +11,8 @@ const RatingContent = ({ buttonsText, setRating, setSubmited }: Props) => {
   return (
     <div className="m-7 flex flex-col space-y-7 ">
       {/* Start icon */}
-      <div className="h-9 w-9 rounded-full bg-[#7c8798] flex justify-center items-center">
-        <Image src="/icon-star.svg" alt="start icon" height={15} width={15} />
+      <div className="h-10 w-10 rounded-full bg-[#2b343f] flex justify-center items-center">
+        <Image src="/icon-star.svg" alt="start icon" height={18} width={18} />
       </div>
       {/* text */}
       <div className="space-y-3">
@@ -38,7 +38,7 @@ const RatingContent = ({ buttonsText, setRating, setSubmited }: Props) => {
       </div>
       {/* submit button */}
       <button
-        className="w-full bg-[#fb7413] py-4 rounded-full text-white font-semibold hover:text-[#fb7413] hover:bg-white transition"
+        className="w-full bg-[#fb7413] py-3 rounded-full text-white font-semibold hover:text-[#fb7413] hover:bg-white transition"
         onClick={() => setSubmited(true)}
       >
         Submit

@@ -8,7 +8,7 @@ const Rating = () => {
   const [rating, setRating] = useState("");
 
   return (
-    <div className="h-screen flex justify-center items-center bg-[#0d0e10]">
+    <div className="h-screen flex justify-center items-center bg-[#32353c]">
       {/* Card */}
       <div className="bg-gradient-to-b from-[#252d37] to-[#121417] w-96 h-[25rem] rounded-2xl">
         {/* card content */}

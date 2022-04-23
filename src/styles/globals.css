@@ -4,6 +4,6 @@
 
 @layer components {
   .ratinButton {
-    @apply w-12 h-12 bg-[#252d37] rounded-full hover:bg-[#fb7413] focus:bg-[#959eac] transition;
+    @apply w-12 h-12 bg-[#252d37] rounded-full hover:bg-[#fb7413] hover:text-white focus:bg-[#959eac] focus:text-white text-[#959eac] transition;
   }
 }
