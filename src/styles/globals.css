@@ -2,16 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg-color-body: rgb(18, 20, 23);
-  --bg-color-card: rgb(32, 39, 49);
-  --bg-color-details: rgb(38, 47, 56);
-  --bg-color-active: rgb(126, 135, 152);
-  --bg-color-btn: rgb(251, 116, 19);
-  --text-color-heading: rgb(255, 255, 255);
-  --text-color-paragraph: rgb(128, 135, 145);
-}
-
+/* Rating component classes */
 @layer components {
   .ratinButton {
     @apply w-14 h-14 bg-[#262f38] rounded-full hover:bg-[#fb7413] hover:text-white focus:bg-[#7e8798] focus:text-white text-[#808791] transition;
