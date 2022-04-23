@@ -4,6 +4,7 @@ import ThankYouState from "./ThankYouState";
 const buttonsText = ["1", "2", "3", "4", "5"];
 
 import React, { useState } from "react";
+import { Fade } from "./Animation/Fade";
 
 const RatingComponent = () => {
   const [submited, setSubmited] = useState(false);
@@ -20,7 +21,11 @@ const RatingComponent = () => {
             setSubmited={setSubmited}
           />
         )}
-        {submited && <ThankYouState rating={rating} />}
+        {submited && (
+          <Fade>
+            <ThankYouState rating={rating} />
+          </Fade>
+        )}
       </div>
     </div>
   );
