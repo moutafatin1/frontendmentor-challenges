@@ -7,7 +7,6 @@ const Rating = () => {
   const [submited, setSubmited] = useState(false);
   const [rating, setRating] = useState("");
 
-  console.log(rating);
   return (
     <div className="h-screen flex justify-center items-center bg-[#0d0e10]">
       {/* Card */}
