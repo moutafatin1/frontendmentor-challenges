@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .ratinButton {
+    @apply w-12 h-12 bg-[#252d37] rounded-full hover:bg-[#fb7413] focus:bg-[#959eac] transition;
+  }
+}
