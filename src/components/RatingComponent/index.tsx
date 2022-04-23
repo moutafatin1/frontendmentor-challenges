@@ -1,5 +1,6 @@
 import RatingContent from "./RatingContent";
 import ThankYouState from "./ThankYouState";
+import { motion } from "framer-motion";
 
 const buttonsText = ["1", "2", "3", "4", "5"];
 
@@ -12,7 +13,12 @@ const RatingComponent = () => {
   return (
     <div className="h-screen flex justify-center items-center bg-[#121417]">
       {/* Card */}
-      <div className="bg-[#202731] w-[27rem] h-[26rem] sm:h-[25rem] rounded-2xl mx-5">
+      <motion.div
+        initial={{ scale: 0.5, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="bg-[#202731] w-[27rem] h-[26rem] sm:h-[25rem] rounded-2xl mx-5"
+      >
         {/* card content */}
         {!submited && (
           <RatingContent
@@ -26,7 +32,7 @@ const RatingComponent = () => {
             <ThankYouState rating={rating} />
           </Fade>
         )}
-      </div>
+      </motion.div>
     </div>
   );
 };
