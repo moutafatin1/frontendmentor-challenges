@@ -7,13 +7,13 @@ type Props = {
 
 export const StartAnimation = ({ children, className }: Props) => {
   return (
-    <motion.div
+    <motion.article
       initial={{ scale: 0.5, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.5 }}
       className={className}
     >
       {children}
-    </motion.div>
+    </motion.article>
   );
 };
