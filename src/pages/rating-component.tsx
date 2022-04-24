@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useState } from "react";
-import RatingComponent from "../../components/RatingComponent";
+import RatingComponent from "../components/RatingComponent";
 
 const Rating = () => {
   return (
