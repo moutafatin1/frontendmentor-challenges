@@ -7,8 +7,8 @@ type Props = {
 
 const ThankYouState = ({ rating }: Props) => {
   return (
-    <div className=" m-7 flex flex-col justify-center items-center space-y-7 ">
-      <div>
+    <article className=" m-7 flex flex-col justify-center items-center space-y-7 ">
+      <figure>
         <Image
           src="/illustration-thank-you.svg"
           alt="thank you image"
@@ -16,7 +16,7 @@ const ThankYouState = ({ rating }: Props) => {
           width={170}
           className="object-contain"
         />
-      </div>
+      </figure>
       <div className="bg-[#252d37] rounded-full">
         <p className="py-2 px-4 text-[#fb7413]">
           You selected {rating} out of 5
@@ -29,7 +29,7 @@ const ThankYouState = ({ rating }: Props) => {
           more support, don’t hesitate to get in touch!
         </p>
       </div>
-    </div>
+    </article>
   );
 };
 

@@ -9,11 +9,11 @@ type Props = {
 
 const RatingContent = ({ buttonsText, setRating, setSubmited }: Props) => {
   return (
-    <div className="m-7 flex flex-col space-y-7 ">
+    <article className="m-7 flex flex-col space-y-7 ">
       {/* Start icon */}
-      <div className="h-12 w-12 rounded-full bg-[#262f38] flex justify-center items-center">
+      <figure className="h-12 w-12 rounded-full bg-[#262f38] flex justify-center items-center">
         <Image src="/icon-star.svg" alt="start icon" height={16} width={16} />
-      </div>
+      </figure>
       {/* text */}
       <div className="space-y-3">
         <h1 className="text-white font-semibold text-3xl">How did we do?</h1>
@@ -43,7 +43,7 @@ const RatingContent = ({ buttonsText, setRating, setSubmited }: Props) => {
       >
         Submit
       </button>
-    </div>
+    </article>
   );
 };
 

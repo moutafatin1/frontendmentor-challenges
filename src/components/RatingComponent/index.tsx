@@ -10,7 +10,7 @@ const RatingComponent = () => {
   const [submited, setSubmited] = useState(false);
   const [rating, setRating] = useState("");
   return (
-    <div className="h-screen flex justify-center items-center bg-[#121417]">
+    <main className="h-screen flex justify-center items-center bg-[#121417]">
       {/* Card */}
       <StartAnimation className="bg-[#202731] w-[27rem] h-[26rem] sm:h-[25rem] rounded-2xl mx-5">
         {/* card content */}
@@ -27,7 +27,7 @@ const RatingComponent = () => {
           </Fade>
         )}
       </StartAnimation>
-    </div>
+    </main>
   );
 };
 
