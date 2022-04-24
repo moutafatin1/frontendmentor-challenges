@@ -14,7 +14,7 @@ const NftPreviewCard = () => {
       <div className="h-screen bg-[#0d192b] flex justify-center items-center font-outfit">
         {/* Card */}
         {/* className for style the motion.dev  */}
-        <StartAnimation className="w-80 h-[33rem] bg-[#14253d] rounded-xl flex flex-col items-center p-6  space-y-5">
+        <StartAnimation className="w-80 h-[33rem] bg-[#14253d] rounded-xl flex flex-col items-center p-6  space-y-5 shadow-2xl">
           {/* Image  */}
           <div className="relative cursor-pointer flex items-center justify-center">
             <div className="absolute opacity-0 z-40 w-full h-full  hover:bg-[#00fff7]/40 hover:opacity-100 rounded-xl flex justify-center items-center transition">
