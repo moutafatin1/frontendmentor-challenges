@@ -1,8 +1,8 @@
 import RatingContent from "./RatingContent";
 import ThankYouState from "./ThankYouState";
 import { useState } from "react";
-import { StartAnimation } from "./Animation";
-import { Fade } from "./Animation";
+import { StartAnimation } from "../Animation";
+import { Fade } from "../Animation";
 
 const buttonsText = ["1", "2", "3", "4", "5"];
 

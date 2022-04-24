@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       outfit: ["Outfit", "sans-serif"],
+      redhat: ["Red Hat Display", "sans-serif"],
     },
     extend: {},
   },

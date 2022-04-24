@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import { StartAnimation } from "../components/RatingComponent/Animation";
+import { StartAnimation } from "../components/Animation";
 
 const NftPreviewCard = () => {
   return (
