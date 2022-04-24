@@ -16,7 +16,7 @@ const OrderSummaryComponent = () => {
       </Head>
       <main className="h-screen font-redhat flex justify-center items-center bg-[#f5f7ff]  bg-no-repeat bg-contain lg:bg-pattern-background">
         {/* Card */}
-        <StartAnimation className="bg-white w-96 h-[40rem] rounded-3xl space-y-6 ">
+        <StartAnimation className="bg-white w-96 h-[40rem] rounded-3xl space-y-6 shadow-2xl ">
           {/* Image */}
           <figure className="relative w-full h-[30%] ">
             <Image
