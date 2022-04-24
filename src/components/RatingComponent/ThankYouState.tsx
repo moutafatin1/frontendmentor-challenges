@@ -23,7 +23,7 @@ const ThankYouState = ({ rating }: Props) => {
         </p>
       </div>
       <div className="text-center space-y-3">
-        <h1 className="text-white font-semibold text-3xl">Thank you!</h1>
+        <h2 className="text-white font-semibold text-3xl">Thank you!</h2>
         <p className="text-[#808791]">
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
