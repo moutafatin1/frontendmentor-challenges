@@ -1,11 +1,13 @@
 import Image from "next/image";
 import React from "react";
+import { StartAnimation } from "../components/RatingComponent/Animation";
 
 const NftPreviewCard = () => {
   return (
     <div className="h-screen bg-[#0d192b] flex justify-center items-center font-outfit">
       {/* Card */}
-      <div className="w-80 h-[33rem] bg-[#14253d] rounded-xl flex flex-col items-center p-6  space-y-5">
+      {/* className for style the motion.dev  */}
+      <StartAnimation className="w-80 h-[33rem] bg-[#14253d] rounded-xl flex flex-col items-center p-6  space-y-5">
         {/* Image  */}
         <div className="relative cursor-pointer flex items-center justify-center">
           <div className="absolute opacity-0 z-40 w-full h-full  hover:bg-[#00fff7]/40 hover:opacity-100 rounded-xl flex justify-center items-center transition">
@@ -82,7 +84,7 @@ const NftPreviewCard = () => {
             </p>
           </div>
         </div>
-      </div>
+      </StartAnimation>
     </div>
   );
 };
