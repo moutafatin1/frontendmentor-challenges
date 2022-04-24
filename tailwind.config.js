@@ -8,7 +8,12 @@ module.exports = {
       outfit: ["Outfit", "sans-serif"],
       redhat: ["Red Hat Display", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "pattern-background":
+          "url('/order-summary/pattern-background-desktop.svg')",
+      },
+    },
   },
   plugins: [],
 };
