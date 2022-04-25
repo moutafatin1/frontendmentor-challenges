@@ -7,6 +7,8 @@ module.exports = {
     fontFamily: {
       outfit: ["Outfit", "sans-serif"],
       redhat: ["Red Hat Display", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
+      deca: ["Lexend Deca", "sans-serif"],
     },
     extend: {
       backgroundImage: {
