@@ -29,6 +29,11 @@ const Home: NextPage = () => {
             Challenge #3 - Order Summary Component
           </a>
         </Link>
+        <Link href="/stats-preview-card-component">
+          <a className="py-3 px-6 bg-emerald-800 rounded-full hover:bg-teal-700 transition">
+            Challenge #4 - Stats Preview Card Component
+          </a>
+        </Link>
       </div>
     </div>
   );
