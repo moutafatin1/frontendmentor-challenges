@@ -39,6 +39,11 @@ const Home: NextPage = () => {
             Challenge #5 - 3 Column Preview Card Component
           </a>
         </Link>
+        <Link href="/3-column-preview-card">
+          <a className="py-3 px-6 bg-sky-700 rounded-full hover:bg-sky-700 transition">
+            Challenge #6 - 3 Profile Card Component
+          </a>
+        </Link>
       </div>
     </div>
   );
