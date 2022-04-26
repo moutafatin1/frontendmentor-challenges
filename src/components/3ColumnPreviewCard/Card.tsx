@@ -5,21 +5,19 @@ type Props = {
   IconUrl: string;
   title: string;
   text: string;
-  bgColor: string;
-  textColor: string;
-  borderRadius?: string;
+
+  classNames?: string;
 };
 
 export const Card = ({
   IconUrl,
   title,
   text,
-  textColor,
-  bgColor,
-  borderRadius = "",
+
+  classNames = "",
 }: Props) => {
   return (
-    <section className={`w-full ${bgColor} h-[30rem] lg:w-80 ${borderRadius} `}>
+    <section className={`w-full h-[30rem] lg:w-80 ${classNames} `}>
       <div className="mx-14  py-12 flex flex-col items-start justify-between h-full ">
         <Image
           src={IconUrl}
@@ -33,7 +31,7 @@ export const Card = ({
         </h2>
         <p className="text-[#f2f2f2]">{text}</p>
         <button
-          className={`${textColor} bg-white py-3.5 px-9 rounded-full hover:bg-transparent  hover:text-white border-2 border-transparent hover:border-white transition `}
+          className={`bg-white py-3.5 px-9 rounded-full hover:bg-transparent  hover:text-white border-2 border-transparent hover:border-white transition `}
         >
           Learn More
         </button>
