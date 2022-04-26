@@ -86,7 +86,7 @@ const FaqAccordionCard = () => {
         </section>
         {/* Box */}
 
-        <figure className="absolute h-52 w-52 translate-x-1/2 translate-y-1/2 z-20 -left-6 top-44">
+        <figure className="absolute hidden lg:block h-52 w-52 translate-x-1/2 translate-y-1/2 z-20 -left-6 top-44">
           <Image
             src="/faq-accordion-card/illustration-box-desktop.svg"
             alt="woman mobile"
