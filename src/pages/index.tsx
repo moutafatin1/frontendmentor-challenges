@@ -30,8 +30,13 @@ const Home: NextPage = () => {
           </a>
         </Link>
         <Link href="/stats-preview-card-component">
-          <a className="py-3 px-6 bg-emerald-800 rounded-full hover:bg-teal-700 transition">
+          <a className="py-3 px-6 bg-violet-600 rounded-full hover:bg-violet-700 transition">
             Challenge #4 - Stats Preview Card Component
+          </a>
+        </Link>
+        <Link href="/3-column-preview-card">
+          <a className="py-3 px-6 bg-pink-700 rounded-full hover:bg-pink-700 transition">
+            Challenge #5 - 3 Column Preview Card Component
           </a>
         </Link>
       </div>

@@ -10,7 +10,7 @@ const StatePreviewCard = () => {
         <title>Stats Preview Component</title>
         <meta
           name="description"
-          content="Order summary Component Challenge from Frontend Mentor"
+          content="Stats Preview Component Challenge from Frontend Mentor"
         />
         <link rel="icon" href="/stats-preview-card/favicon-32x32.png" />
       </Head>

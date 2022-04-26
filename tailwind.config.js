@@ -9,6 +9,7 @@ module.exports = {
       redhat: ["Red Hat Display", "sans-serif"],
       inter: ["Inter", "sans-serif"],
       deca: ["Lexend Deca", "sans-serif"],
+      bigShoulders: ["Big Shoulders Display", "sans-serif"],
     },
     extend: {
       backgroundImage: {
