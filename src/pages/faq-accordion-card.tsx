@@ -1,7 +1,4 @@
 import Image from "next/image";
-import React, { useState } from "react";
-import { MdKeyboardArrowDown } from "react-icons/md";
-import { motion } from "framer-motion";
 import { Accordion } from "../components/Accordion/Accordion";
 import { StartAnimation } from "../components/Animation";
 
