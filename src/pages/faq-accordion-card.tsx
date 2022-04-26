@@ -93,18 +93,18 @@ const FaqAccordionCard = () => {
                 className=""
               />
             </figure>
+            <figure className="fixed  hidden lg:block h-52 w-52 translate-x-1/2 translate-y-1/2 z-20 -left-5 -top-26 mt-7 ">
+              <Image
+                src="/faq-accordion-card/illustration-box-desktop.svg"
+                alt="woman mobile"
+                layout="fill"
+                objectFit="contain"
+                className="shadow-2xl "
+              />
+            </figure>
           </section>
           {/* Box */}
 
-          <figure className="absolute hidden lg:block h-52 w-52 translate-x-1/2 translate-y-1/2 z-20 -left-6 top-44">
-            <Image
-              src="/faq-accordion-card/illustration-box-desktop.svg"
-              alt="woman mobile"
-              layout="fill"
-              objectFit="contain"
-              className="shadow-2xl "
-            />
-          </figure>
           <section className="mt-36 lg:w-1/2 lg:my-16   ">
             <h1 className="text-center text-3xl font-bold lg:text-left lg:text-4xl ml-3">
               FAQ
