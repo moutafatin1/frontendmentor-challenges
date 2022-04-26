@@ -44,6 +44,11 @@ const Home: NextPage = () => {
             Challenge #6 - 3 Profile Card Component
           </a>
         </Link>
+        <Link href="/faq-accordion-card">
+          <a className="py-3 px-6 bg-sky-700 rounded-full hover:bg-sky-700 transition">
+            Challenge #7 - FAQ Accordion Card Component
+          </a>
+        </Link>
       </div>
     </div>
   );
