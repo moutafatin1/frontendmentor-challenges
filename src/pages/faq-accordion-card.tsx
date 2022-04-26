@@ -63,7 +63,8 @@ const FaqAccordionCard = () => {
         {/* Desktop Image */}
 
         <section className="relative hidden lg:flex w-1/2 overflow-hidden z-20">
-          <figure className="absolute  h-96 w-96 -left-20    z-10">
+          {/* woman */}
+          <figure className="absolute  h-96 w-96 -left-16    z-10">
             <Image
               src="/faq-accordion-card/illustration-woman-online-desktop.svg"
               alt="woman desktop"
@@ -82,17 +83,18 @@ const FaqAccordionCard = () => {
               className=""
             />
           </figure>
-          {/* Box */}
-          <figure className="absolute  h-52 w-52 -translate-x-1/2 translate-y-1/2 z-20 -left-6 top-6">
-            <Image
-              src="/faq-accordion-card/illustration-box-desktop.svg"
-              alt="woman mobile"
-              layout="fill"
-              objectFit="contain"
-              className="shadow-2xl "
-            />
-          </figure>
         </section>
+        {/* Box */}
+
+        <figure className="absolute h-52 w-52 translate-x-1/2 translate-y-1/2 z-20 -left-6 top-44">
+          <Image
+            src="/faq-accordion-card/illustration-box-desktop.svg"
+            alt="woman mobile"
+            layout="fill"
+            objectFit="contain"
+            className="shadow-2xl "
+          />
+        </figure>
         <section className="mt-36 lg:w-1/2 lg:my-16   ">
           <h1 className="text-center text-3xl font-bold lg:text-left lg:text-4xl ml-3">
             FAQ
