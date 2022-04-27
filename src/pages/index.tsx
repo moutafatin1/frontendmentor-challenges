@@ -54,6 +54,11 @@ const Home: NextPage = () => {
             Challenge #8 - Social Proof Section
           </a>
         </Link>
+        <Link href="/manage-landing-page">
+          <a className="py-3 px-6 bg-sky-700 rounded-full hover:bg-sky-700 transition">
+            Challenge #9 - Manage Landing Page
+          </a>
+        </Link>
       </div>
     </div>
   );
