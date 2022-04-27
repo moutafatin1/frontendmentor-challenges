@@ -12,6 +12,8 @@ module.exports = {
       bigShoulders: ["Big Shoulders Display", "sans-serif"],
       kumbh: ["Kumbh Sans", "sans-serif"],
       spartan: ["League Spartan", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
+      beVietnom: ["Be Vietnam Pro", "sans-serif"],
     },
     extend: {
       backgroundImage: {
@@ -19,6 +21,16 @@ module.exports = {
           "url('/order-summary/pattern-background-desktop.svg')",
         "card-pattern-top": "url('/profile-card/bg-pattern-top.svg')",
         "card-pattern-bottom": "url('/profile-card/bg-pattern-bottom.svg')",
+      },
+      colors: {
+        brightRed: "hsl(12, 88%, 59%)",
+        brightRedLight: "hsl(12,88%,69%)",
+        brightRedSupLight: "hsl(12,88%,95%)",
+        varyPaleRed: "hsl(13, 100%, 96%)",
+        darkBlue: "hsl(228, 39%, 23%)",
+        darkGrayishBlue: "hsl(227, 12%, 61%)",
+        veryDarkBlue: "hsl(233, 12%, 13%)",
+        veryLigthGray: "hsl(0, 0%, 98%)",
       },
     },
   },
