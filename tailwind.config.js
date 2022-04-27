@@ -11,6 +11,7 @@ module.exports = {
       deca: ["Lexend Deca", "sans-serif"],
       bigShoulders: ["Big Shoulders Display", "sans-serif"],
       kumbh: ["Kumbh Sans", "sans-serif"],
+      spartan: ["League Spartan", "sans-serif"],
     },
     extend: {
       backgroundImage: {

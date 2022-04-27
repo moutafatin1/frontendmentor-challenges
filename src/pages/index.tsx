@@ -49,6 +49,11 @@ const Home: NextPage = () => {
             Challenge #7 - FAQ Accordion Card Component
           </a>
         </Link>
+        <Link href="/social-proof-section">
+          <a className="py-3 px-6 bg-sky-700 rounded-full hover:bg-sky-700 transition">
+            Challenge #8 - Social Proof Section
+          </a>
+        </Link>
       </div>
     </div>
   );
