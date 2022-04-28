@@ -16,4 +16,6 @@
   .ratinButton {
     @apply w-14 h-14 bg-[#262f38] rounded-full hover:bg-[#fb7413] hover:text-white focus:bg-[#7e8798] focus:text-white text-[#808791] transition;
   }
+
+  
 }

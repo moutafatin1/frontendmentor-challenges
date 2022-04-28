@@ -1,6 +1,8 @@
 import React from "react";
 import {
+  CallToAction,
   Features,
+  Footer,
   Hero,
   Navbar,
   Testimonials,
@@ -8,11 +10,13 @@ import {
 
 const ManageLandingPage = () => {
   return (
-    <div className="font-poppins">
+    <div className="font-poppins bg-tablet-pattern bg-no-repeat bg-[length:500px]  bg-[right_-8%]  ">
       <Navbar />
       <Hero />
       <Features />
       <Testimonials />
+      <CallToAction />
+      <Footer />
     </div>
   );
 };

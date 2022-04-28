@@ -21,6 +21,11 @@ module.exports = {
           "url('/order-summary/pattern-background-desktop.svg')",
         "card-pattern-top": "url('/profile-card/bg-pattern-top.svg')",
         "card-pattern-bottom": "url('/profile-card/bg-pattern-bottom.svg')",
+        "tablet-pattern": "url('/manage-landing-page/bg-tablet-pattern.svg')",
+        "simplify-section-desktop":
+          "url('/manage-landing-page/bg-simplify-section-desktop.svg')",
+        "simplify-section-mobile":
+          "url('/manage-landing-page/bg-simplify-section-mobile.svg')",
       },
       colors: {
         brightRed: "hsl(12, 88%, 59%)",
